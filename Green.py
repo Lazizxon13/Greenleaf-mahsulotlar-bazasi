@@ -23,9 +23,9 @@ def echo_all(message):
         # Мижозга "ёзяпти..." деган статусни кўрсатиш
         bot.send_chat_action(message.chat.id, 'typing')
         
-        # Янги авлод Gemini орқали жавоб олиш
+    # МОДЕЛ НОМИ 500 ТАЛИК ЛИМИТГА ЎЗГАРТИРИЛДИ
         response = client.models.generate_content(
-            model='gemini-1.5-flash',
+            model='gemini-3.1-flashlight', # Энди кунига 500 та саволга жавоб беради!
             contents=message.text,
             config=genai.types.GenerateContentConfig(
                 system_instruction=system_text
