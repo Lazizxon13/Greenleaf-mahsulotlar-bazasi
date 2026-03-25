@@ -2,7 +2,7 @@ import telebot
 from google import genai
 
 # 1. Калитларни киритамиз
-TELEGRAM_TOKEN = "8745146517:AAGu_0Zn-SE7LoT9V-nq1rMAb_lZcJK4n5I"
+TELEGRAM_TOKEN = "8745146517:AAGkG_6N6yToZh_Sd-mzMa5Z-T8d8MGZJrI"
 GEMINI_API_KEY = "AIzaSyC88GE0fnEvJhU2-Vg7vMk2jF03wOZVM48" # AIza... кодини шу ерга қўясиз
 
 # 2. Созламалар
